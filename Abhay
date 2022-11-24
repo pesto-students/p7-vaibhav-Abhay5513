@@ -1,0 +1,36 @@
+Assignment -
+1. https://www.figma.com/file/GDOAHvdShOojGd3i1xhvXb/Untitled?node-id=0%3A1&t=yPNJQTOYrEzqqduJ-0  
+
+      A web browser’s main function is to render HTML code.
+
+2. High level components of a browser ( UI , Browser engine , Rendering engine,  JS intrepretor , Data storage, 	UI backend, Networking.)
+
+3. Rendering engine is a integral part of a web browser. 
+       responsible for displaying requested content. For example if the requested  
+       content is HTML, the rendering engine parses HTML and CSS, and displays the              
+        parsed content on the screen.
+
+        Its use is to draw text and images on the screen. The engine draws strucutred
+        text from a document (HTML), and formats it properly based on the given style
+        declarations(Often CSS).
+
+   4. HTML/CSS parsing and rendering - Parsing and Rendering turn the HTML 
+       Content into a web page with colours and pictures.
+       HTML parsin >>Tokenisation>> Dom Tree
+       CSS  Parsin >> Tokenization>> CSSOM tree
+       CSSOM and DOM tree are merged to form a render tree
+ 
+    5. Tree Construction which happens inside a browser, when a request is raised;
+        The DOM and CSSOM trees are combined to form the render tree.
+         Render Tree contains only the nodes required to render the page.
+         Layout computes the exact position and size of each object.
+         The last step is paint, which takes in the final render tree and renders the
+         Pixels to the screen.
+
+    6. The scripts in the Process pages are processed in the following order: Pre-
+         Process page and Process page.
+         > Execution Stages.
+         > Activation.
+         > Generation.
+         > Processing.
+         > Completion.
