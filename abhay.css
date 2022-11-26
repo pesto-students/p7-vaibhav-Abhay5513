@@ -1,0 +1,62 @@
+.body-of-navebar{
+display: flex;
+justify-content: space-evenly; /* Center me gap evenly between */
+margin-top: 10%;
+}
+
+a{
+    color:black
+}
+
+a:hover{
+    background:dimgrey
+}
+
+.text-center, .connect{
+    display: flex;
+    margin-top: 6%;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    font: size 2px;
+
+}
+h3{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+p{
+    font-size: 1.3em;
+    font-weight: 100;
+    font-style: italic;
+    text-decoration: solid;
+}
+
+img{
+    height: 195px;
+    width: 165px;
+}
+
+section{
+    
+    text-align: center;
+    
+}
+
+html{
+    background-image:url(./historical-picture-material-of-the-paper-series-14_988767182.jpg);
+    
+}
+
+.btn{
+    background-color:blue;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+
